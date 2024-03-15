@@ -72,7 +72,7 @@ stages:
   - deployment: Deploy
     pool:
       vmImage: 'ubuntu-20.04'
-    environment: dev
+    environment: test
     variables:
     - group: Release
     strategy:
