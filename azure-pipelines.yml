@@ -85,6 +85,6 @@ stages:
             displayName: 'Azure App Service Deploy: website'
           
             inputs:
-              azureSubscription: 'ADO to Azure Connection'
+              azureSubscription: 'Microsoft Azure Sponsorship'
               appName: '$(spacegame-spin)'
               package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip'
